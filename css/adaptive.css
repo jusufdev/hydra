@@ -1,0 +1,121 @@
+@media (max-width: 980px) {
+  .header-main {
+    display: none;
+  }
+  .header-cart {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .dive {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .dive-content {
+    align-items: center;
+  }
+  .dive-icon button {
+    max-width: 300px;
+    padding: 18px;
+  }
+  .dive-icon ion-icon {
+    display: none;
+  }
+  .dive-content p {
+    display: none;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .nav-content:nth-child(2) {
+    display: none;
+  }
+  .nav-content:nth-child(3) {
+    display: none;
+  }
+  .nav-content h2 {
+    display: none;
+  }
+  .nav-icon {
+    display: flex;
+  }
+  .nav-icon ion-icon:nth-child(1) {
+    position: absolute;
+    top: -70px;
+    left: 5px;
+  }
+  .nav-icon ion-icon:nth-child(2) {
+    position: absolute;
+    bottom: 42px;
+    left: 323px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-content h2 {
+    display: flex;
+  }
+  .main-content p {
+    display: none;
+  }
+  .main-content img {
+    display: none;
+  }
+  .main-cart {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-about h1,
+  h2 {
+    display: none;
+  }
+  .cart-cart {
+    flex-direction: column;
+  }
+  .main-about {
+    align-items: center;
+  }
+  .main-about button {
+    padding: 18px;
+    max-width: 300px;
+  }
+  .cart-cart .cart-content:nth-child(2) {
+    display: none;
+  }
+  .cart-cart .cart-content:nth-child(3) {
+    display: none;
+  }
+  .cart-cart .cart-content:nth-child(4) {
+    display: none;
+  }
+  .cart-cart .cart-content {
+    gap: 30px;
+    height: 500px;
+  }
+  .cart-cart .cart-content img {
+    max-width: 200px;
+  }
+  .cart-cart .cart-content button {
+    padding: 18px;
+    max-width: 250px;
+  }
+  .cart-icon {
+    display: flex;
+  }
+  .cart-icon ion-icon:nth-child(1) {
+    position: absolute;
+    bottom: 240px;
+    left: -25px;
+  }
+  .cart-icon ion-icon:nth-child(2) {
+    position: absolute;
+    bottom: 240px;
+    left: 325px;
+  }
+}
