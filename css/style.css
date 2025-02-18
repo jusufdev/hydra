@@ -304,6 +304,9 @@ body {
 .cart-content img {
   width: 100%;
   max-width: 150px;
+  background: #0e0e0e52;
+  border-radius: 100%;
+  padding: 12px;
 }
 .cart-content h1 {
   width: 100%;
@@ -339,4 +342,352 @@ body {
   background: #211e2e6a;
   color: #c0b7e8;
   border-radius: 100%;
+}
+#used {
+  padding-block: 40px;
+}
+.used img {
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: clamp(0.313rem, -0.256rem + 2.84vw, 1.875rem);
+}
+.used-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.used-content img {
+  width: 100%;
+  max-width: 200px;
+}
+.used-cart {
+  position: absolute;
+}
+.used-cart h1 {
+  width: 100%;
+  font-size: clamp(0.2rem, 0.545rem + 2.27vw, 2.25rem);
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  bottom: 440px;
+  left: 325px;
+}
+.used-cart h1 span {
+  width: 100%;
+  max-width: 340px;
+  font-size: clamp(1rem, 0.545rem + 2.27vw, 2.25rem);
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  right: -310px;
+}
+.used-cart h1 span:nth-child(2) {
+  width: 100%;
+  max-width: 340px;
+  font-size: clamp(0.1rem, 0.545rem + 2.27vw, 2.25rem);
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  right: -345px;
+}
+.used-main {
+  position: absolute;
+}
+.used-main h2 {
+  width: 100%;
+  max-width: 380px;
+  font-size: clamp(1.625rem, 1.398rem + 1.14vw, 2.25rem);
+  font-weight: 300;
+  color: #ffffff;
+  position: absolute;
+  bottom: 390px;
+  left: 445px;
+}
+.used-main h2 span {
+  width: 100%;
+  max-width: 380px;
+  font-size: clamp(1.625rem, 1.398rem + 1.14vw, 2.25rem);
+  font-weight: 300;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  left: 112px;
+}
+.used-main h2 span:nth-child(2) {
+  width: 100%;
+  max-width: 380px;
+  font-size: clamp(1.625rem, 1.398rem + 1.14vw, 2.25rem);
+  font-weight: 300;
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 170px;
+}
+.used-main h2 span:nth-child(3) {
+  width: 100%;
+  max-width: 380px;
+  font-size: clamp(1.625rem, 1.398rem + 1.14vw, 2.25rem);
+  font-weight: 300;
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 305px;
+}
+.used-icon {
+  position: absolute;
+}
+.used-icon ion-icon {
+  font-size: 65px;
+  background: #211e2e6e;
+  padding: 5px;
+  border-radius: 100%;
+  color: #c0b7e8;
+  position: absolute;
+  bottom: 260px;
+  left: 570px;
+}
+.used-ion {
+  display: none;
+  position: absolute;
+}
+.used-ion ion-icon {
+  font-size: 50px;
+  background: #211e2e6a;
+  color: #c0b7e8;
+  border-radius: 100%;
+  padding: 2px;
+}
+#how {
+  padding-block: clamp(0.313rem, -0.483rem + 3.98vw, 2.5rem);
+}
+.how {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.how-contr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.how-content h1 {
+  width: 100%;
+  max-width: 390px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.how-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.how-cart h2 {
+  width: 100%;
+  max-width: 350px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.how-cart img {
+  width: 100%;
+  max-width: 150px;
+}
+.how-year p {
+  width: 100%;
+  max-width: 640px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.how-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d0d0d52;
+  max-width: 170px;
+  height: 170px;
+  border-radius: 100%;
+}
+.how-img {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #8176af;
+  max-width: 130px;
+  height: 130px;
+  padding: 35px;
+  border-radius: 100%;
+}
+.how-img h1 {
+  width: 100%;
+  font-size: 55px;
+  color: #0d0d0dad;
+}
+.how-icon {
+  display: flex;
+  align-items: start;
+  gap: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.how-icon ion-icon {
+  font-size: 25px;
+  color: #c0b7e8;
+}
+.how-icon h4 {
+  width: 100%;
+  max-width: 190px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #ffffff;
+}
+.how-how {
+  position: absolute;
+}
+.how-how ion-icon {
+  font-size: 55px;
+  background: #0e0e0e52;
+  color: #c0b7e8;
+  border-radius: 100%;
+  padding: 2px;
+}
+.how-how {
+  display: none;
+}
+#join {
+  padding-block: 40px;
+}
+.join {
+  padding: 40px;
+  background-color: #211e2e;
+  border-radius: 25px;
+}
+.join-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+.join-content h1 {
+  width: 100%;
+  max-width: 250px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.join-background {
+  background: #ffffff;
+  padding: 1px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 100%;
+}
+.join-content h2 {
+  width: 100%;
+  max-width: 500px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.join-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.join-main button {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-self: start;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  background: none;
+  color: #ffffff;
+}
+.join-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.join-cart button {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-self: start;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  background: none;
+  color: #ffffff;
+}
+.join-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.join-year button {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  align-self: start;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  background: none;
+  color: #ffffff;
+}
+.join-join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.join-join p {
+  width: 100%;
+  max-width: 1020px;
+  justify-content: center;
+  background: #211e2e;
+  height: 150px;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  padding: 15px;
+  color: #ffffff;
+}
+.join-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-button button {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px;
+  border-radius: 25px;
+  background-color: #8176af;
+  font-size: 12px;
+  font-weight: 700;
+  color: #211e2e;
+  border: none;
 }

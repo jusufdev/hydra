@@ -49,7 +49,7 @@
   .nav-icon ion-icon:nth-child(2) {
     position: absolute;
     bottom: 42px;
-    left: 323px;
+    left: 315px;
   }
   .main {
     flex-direction: column;
@@ -116,6 +116,117 @@
   .cart-icon ion-icon:nth-child(2) {
     position: absolute;
     bottom: 240px;
-    left: 325px;
+    left: 320px;
+  }
+  .used .used-content {
+    justify-content: center;
+  }
+  .used img {
+    width: 100%;
+  }
+  .used-cart h1 {
+    position: absolute;
+    bottom: 360px;
+    left: 30px;
+  }
+  .used-cart h1 span {
+    position: absolute;
+    bottom: 0px;
+    left: 155px;
+  }
+  .used-cart h1 span:nth-child(2) {
+    position: absolute;
+    bottom: 0px;
+    left: 175px;
+  }
+  .used-main {
+    display: flex;
+  }
+  .used-content img {
+    max-width: 260px;
+  }
+  .used-content img:nth-child(1) {
+    display: none;
+  }
+  .used-content img:nth-child(2) {
+    display: none;
+  }
+  .used-content img:nth-child(3) {
+    display: none;
+  }
+  .used-icon {
+    display: none;
+  }
+  .used-ion {
+    display: flex;
+  }
+
+  .used-ion ion-icon {
+    position: absolute;
+    bottom: 125px;
+    left: -5px;
+  }
+  .used-ion ion-icon:nth-child(2) {
+    position: absolute;
+    bottom: 125px;
+    left: 315px;
+  }
+  .how {
+    flex-direction: column;
+  }
+  .how-cart img {
+    display: none;
+  }
+  .how-year p {
+    display: none;
+  }
+  .how-1:nth-child(2) {
+    display: none;
+  }
+  .how-1:nth-child(3) {
+    display: none;
+  }
+  .how-1:nth-child(4) {
+    display: none;
+  }
+  nav {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .how-cart h2 {
+    display: flex;
+  }
+  .how-icon ion-icon {
+    display: none;
+  }
+  .how-icon h4 {
+    font-size: 24px;
+  }
+  .how-how {
+    display: flex;
+    position: absolute;
+  }
+  .how-how ion-icon {
+    position: absolute;
+    bottom: 20px;
+    left: -5px;
+  }
+  .how-how ion-icon:nth-child(2) {
+    position: absolute;
+    bottom: 20px;
+    left: 310px;
+  }
+  .join {
+    flex-direction: column;
+  }
+  .join-content h2 {
+    display: flex;
+  }
+  .join-main {
+    flex-direction: column;
+  }
+  .join-cart {
+    flex-direction: column;
   }
 }
