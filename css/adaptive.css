@@ -229,4 +229,23 @@
   .join-cart {
     flex-direction: column;
   }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-background {
+    display: none;
+  }
+  .footer-main {
+    display: none;
+  }
+  .footer-cart {
+    display: none;
+  }
+  .footer-year {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-button button {
+  }
 }
