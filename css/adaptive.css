@@ -49,7 +49,7 @@
   .nav-icon ion-icon:nth-child(2) {
     position: absolute;
     bottom: 42px;
-    left: 315px;
+    left: 305px;
   }
   .main {
     flex-direction: column;
@@ -111,12 +111,12 @@
   .cart-icon ion-icon:nth-child(1) {
     position: absolute;
     bottom: 240px;
-    left: -25px;
+    left: -20px;
   }
   .cart-icon ion-icon:nth-child(2) {
     position: absolute;
     bottom: 240px;
-    left: 320px;
+    left: 308px;
   }
   .used .used-content {
     justify-content: center;
@@ -169,7 +169,7 @@
   .used-ion ion-icon:nth-child(2) {
     position: absolute;
     bottom: 125px;
-    left: 315px;
+    left: 300px;
   }
   .how {
     flex-direction: column;
@@ -215,7 +215,7 @@
   .how-how ion-icon:nth-child(2) {
     position: absolute;
     bottom: 20px;
-    left: 310px;
+    left: 290px;
   }
   .join {
     flex-direction: column;

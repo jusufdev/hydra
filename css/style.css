@@ -792,7 +792,7 @@ nav {
 }
 .footer-p p {
   width: 100%;
-  max-width: clamp(10.625rem, 1.307rem + 46.59vw, 36.25rem);
+  max-width: clamp(11.875rem, 3.011rem + 44.32vw, 36.25rem);
   font-size: 14px;
   font-weight: 700;
   line-height: 25px;
